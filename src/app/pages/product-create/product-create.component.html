@@ -1,0 +1,10 @@
+<form action="#">
+    <div>
+    <input type="category" placeholder="enter category" [(ngModel)]="productObj.category" name="category" required> <br><br>
+    <input type="name" placeholder="enter name"[(ngModel)]="productObj.name" name="name" required><br><br>
+    <input type="description" placeholder="enter description"[(ngModel)]="productObj.description" name="description" required><br><br>
+    <input type="units"placeholder="no of units" [(ngModel)]="productObj.units" name="units" required><br><br>
+    <button type="button" (click)="onCreate()">Add</button>
+    </div>
+
+</form>
